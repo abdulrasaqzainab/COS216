@@ -11,7 +11,6 @@ class UserRegistrationAPI {
     public function __construct($db) {
         $this->mysqli = $db;
     }
-
     
     public function registerUser($data) {
         //extracting data from json post body
