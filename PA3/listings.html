@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Listings</title>
+  
+    <link rel="stylesheet" href="css/mycss.css">
+    <script src="js/listings.js" defer></script>
+</head>
+
+<div class="banner1">
+    
+    <img src="img/green_t.png" width="200" height="150" alt="company logo" >
+    <h1>
+        McAlister's Listing
+    </h1>
+  
+</div>
+
+<!--include banner somewhere-->
+<nav>
+    <a href="listings.html">Listings</a>
+    <a href="agents.html">Agents</a>
+    <a href="calculators.html">Calculators</a>
+</nav>
+
+<main>
+    <section>
+        <div class="container">
+            <h2>
+                Search Bar
+            </h2>
+        <input type="text" id="searchbar" placeholder="Search by location">
+    </div>
+        <select class="buy-rent-selector">
+            <option value="buy">Buy</option>
+            <option value="rent">Rent</option>
+        </select>
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="title">Title</option>
+            <option value="price">Price</option>
+        </select>
+    </section>
+    
+    <div id="loading_screen">
+        <img src="img/loading_gif.gif" alt="Loading">
+        <h1>Content is Loading</h1>
+    </div>
+
+    <div id="listings-container" class="container" >
+       
+    
+    </div>
+</main>
+</html>

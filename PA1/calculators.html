@@ -1,0 +1,66 @@
+<html>
+    <title>
+        Calculators
+    </title>
+    <head>
+        <link rel="stylesheet" href="css/mycss.css">
+        <meta charset="UTF-8">
+        <script src="calculator.js" defer></script>
+    </head>
+    
+    <!--include banner somewhere-->
+    <div class="banner1">
+        <col size="3">
+        <img src="img/green_t.png" width="200" height="150" >
+        <h1>
+            McAlister's Listing
+        </h1>
+        
+        <!-- <h2>
+            PREMIUM PROPERTY LISTING
+        </h2> -->
+    
+        <!-- coloumn/ diff div tag-->
+        <!-- <img src="GREEN_MC.png"> -->
+      
+    </div>
+    <nav>
+        <!-- <a href="PA1.html">Home</a> -->
+        <a href="listings.html">Listings</a>
+        <a href="agents.html">Agents</a>
+        <a href="favourites.html">Favourites</a>
+        <a href="calculators.html">Calculators</a>
+    </nav>
+    
+    <main>
+        <form id="mortgage_calculator">
+            <!-- <label for="monthly_payment">Monthly Mortgage Payment:</label>
+            <input type="number" id="monthly_payment" placeholder="Enter your monthly mortgage payment" required>
+     -->
+            <label for="loan_amount">Loan Amount:</label>
+            <input type="number" id="loan_amount" placeholder="Enter the loan amount" required>
+    
+            <label for="interest_rate">Interest Rate (%):</label>
+            <input type="number" id="interest-rate" value="11.75" readonly required>
+    
+            <label for="payment_num">Number of Payments:</label>
+            <input type="number" id="payment_num" placeholder="Enter the loan term" required>
+    
+            <button type="button" id="mortgage_button">Calculate Monthly Mortgage Payment</button>
+        </form>
+    
+        <form id="down_payment">
+            <label for="sale_price">Price of Property:</label>
+            <input type="number" id="monthly-income-afford" placeholder="Enter price of desired property" required>
+    
+            <label for="payment_percentage">Payment Percentage(%):</label>
+            <input type="number" id="payment_percentage" placeholder="Enter the payment percentage" required>
+    
+            <button type="button" id="down_payment_button">Calculate Down Payment</button>
+        </form>
+    
+        <div id="result"></div>
+    </main>
+    
+  
+</html>
